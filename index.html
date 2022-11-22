@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="register_css.css">
+    <script src="register.js"></script>
+</head>
+<body>
+	<form class = "box" action = "/formPost" method = "POST">
+		<fieldset>
+			<legend style="text-align: right" class = "res">Form</legend>
+			<table>
+				<tr>
+					<td><label for="sid" class = "res"><b>ID :</b></label></td>
+					<td><input type="text" name="phone" id="sid" required></td>
+				</tr>
+                <tr></tr>
+				<tr>
+					<td><label for="fname" class = "res"><b>Name:</b></label></td>
+					<td><input type="text" name="username" id="fname" required></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td><label for="address" class = "res"><b>Address :</b></label></td>
+					<td><input type="text" name="username" id="address" minlength="10" maxlength="60" required></td>
+				</tr>
+                <tr></tr>
+				<tr>
+					<td><label for="sub1" class = "res"><b>Subject1 :</b></label></td>
+					<td><input type="tel" name="tel" id="sub1" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub2" class = "res"><b>Subject2 :</b></label></td>
+					<td><input type="tel" name="tel" id="sub2" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub3" class = "res"><b>Subject3 :</b></label></td>
+					<td><input type="tel" name="tel" id="sub3" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub4" class = "res"><b>Subject4 :</b></label></td>
+					<td><input type="tel" name="tel" id="sub4" required></td>
+				</tr>
+                <tr></tr>
+                <tr>
+					<td><label for="sub5" class = "res"><b>Subject5 :</b></label></td>
+					<td><input type="tel" name="tel" id="sub5" required></td>
+				</tr>
+                <tr></tr>
+                <tr></tr>
+			</table>
+		<button type="submit" onclick="onSubmit()" id="submit">Sign Up</button>
+	</fieldset>
+	</form>
+</body>
+</html>
